@@ -2,31 +2,27 @@
 defined('C5_EXECUTE') or die("Access Denied.");
 $this->inc('elements/header.php'); ?>
 	
-	<div class="clear"></div>
+	<div class="row">
 
-	<div id="main-content-container" class="grid_16">
-		<div id="main-content-inner">
+		<div class="small-12 large-8 columns">
+
+				<?php 
+				$a = new Area('Main');
+				$a->display($c);
+				?>
+
+		</div>
+
+		<div class="small-12 large-4 columns">
+
+				<?php 
+				$a = new Area('Sidebar');
+				$a->display($c);
+				?>
+
+
+		</div>
 		
-			<?php 
-			$a = new Area('Main');
-			$a->display($c);
-			?>
-			
-		</div>
-	
-	</div>
-
-	<div id="right-sidebar-container" class="grid_8">
-
-		<div id="right-sidebar-inner">
-	
-			<?php 
-			$a = new Area('Sidebar');
-			$a->display($c);
-			?>
-			
-		</div>
-	
 	</div>
 	
 	<!-- end sidebar -->

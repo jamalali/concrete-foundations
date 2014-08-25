@@ -70,7 +70,8 @@ body#tinymce {
     /* customize_paragraph_font */
     /* customize_text */
     color: #000;
-    /* customize_text */ }
+    /* customize_text */
+    margin-left: 15px; }
   .cf-ui a:hover {
     text-decoration: underline; }
   .cf-ui p {
