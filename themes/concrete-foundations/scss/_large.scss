@@ -1,0 +1,42 @@
+@media #{$large-up} {
+	
+	.cf-ui {
+		.main-container {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-left: 0;
+			padding-right: 0;
+			box-shadow: 2px 0 8px 0 #b2b9c1;
+		}
+
+		.contain-to-grid {
+			padding-top: 55px;
+			padding-bottom: 35px;
+		}
+
+		.top-bar {
+			.name {
+				h1 {
+					margin-left: 45px;
+					font-size: 28px;
+					float: left;
+					line-height: 25.2px;
+				}
+			}
+		}
+		
+		.top-bar-section {
+			ul {
+				margin-bottom: 0;
+				margin-right: 45px;
+				margin-top: 9px;
+				
+				a {
+					font-size: 16px !important;
+					padding: 10px !important;
+					line-height: 18.8px !important;
+				}
+			}
+		}
+	}
+}

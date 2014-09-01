@@ -24,9 +24,11 @@
     <body>
         
         <div class="cf-ui">
+			
+			<div class="row">
+				<div class="small-12 columns main-container">
             
-            <?php $this->inc('elements/main_menu.php'); ?>
+					<?php $this->inc('elements/main_menu.php'); ?>
 
-            <div class="row">
-                
-                <div class="small-12 columns">
+					<div class="row">
+						<div class="small-12 columns">

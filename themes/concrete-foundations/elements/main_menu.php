@@ -1,6 +1,6 @@
 <div class="row">
                 
-    <div class="small-12 columns">
+    <div class="small-12 columns small-only-no-gutter">
 
         <div class="contain-to-grid">
 
@@ -16,7 +16,7 @@
                     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
                     <li class="toggle-topbar menu-icon">
 						<a href="#">
-							<span>Menu</span>
+							<span></span>
 						</a>
 					</li>
 					
@@ -52,7 +52,7 @@
 
 <div class="row">
     
-    <div class="small-12 columns header-image">
+    <div class="small-12 columns header-image small-only-no-gutter">
     
         <?php 
         $a = new Area('Header Image');

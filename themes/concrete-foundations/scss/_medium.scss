@@ -1,0 +1,36 @@
+@media #{$medium-up} {
+	
+	.cf-ui {
+		
+		.contain-to-grid {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		
+		.top-bar {
+			.name {
+				h1 {
+					margin-bottom: 0;
+					font-size: 22px;
+					float: left;
+					
+					a {
+						padding: 0;
+					}
+				}
+			}
+		}
+		
+		.top-bar-section {
+			ul {
+				margin-top: 9px;
+				
+				a {
+					font-size: 14px !important;
+					padding: 8px !important;
+					line-height: 18.8px !important;
+				}
+			}
+		}
+	}
+}

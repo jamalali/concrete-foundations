@@ -1,3 +1,5 @@
+@import "settings";
+
 body {
     height: auto; 
     /* customize_body-background */ background-color: #dff5ff; /* customize_body-background */
@@ -52,6 +54,16 @@ body#tinymce {
             /* customize_links */ color: #0099ff; /* customize_links */
             text-decoration: none;
     }
+	
+	.top-bar-section ul li {
+		> a {
+			color: $color2;
+		}
+		
+		&.active > a {
+			font-weight: bold;
+		}
+	}
 
     h1, h2, h3, h4, h5, h6 {
             /* customize_headings */ color: #000; /* customize_headings */
@@ -72,12 +84,6 @@ body#tinymce {
 
 
 /* text styles */
-
-
-    a:hover {
-            text-decoration: underline;
-    }
-
     p {
             margin-bottom: 20px;
             margin-top: 20px;

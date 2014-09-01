@@ -55,6 +55,10 @@ body#tinymce {
     color: #0099ff;
     /* customize_links */
     text-decoration: none; }
+  .cf-ui .top-bar-section ul li > a {
+    color: black; }
+  .cf-ui .top-bar-section ul li.active > a {
+    font-weight: bold; }
   .cf-ui h1, .cf-ui h2, .cf-ui h3, .cf-ui h4, .cf-ui h5, .cf-ui h6 {
     /* customize_headings */
     color: #000;
@@ -72,8 +76,6 @@ body#tinymce {
     color: #000;
     /* customize_text */
     margin-left: 15px; }
-  .cf-ui a:hover {
-    text-decoration: underline; }
   .cf-ui p {
     margin-bottom: 20px;
     margin-top: 20px; }
