@@ -29,6 +29,3 @@
 				<div class="small-12 columns main-container">
             
 					<?php $this->inc('elements/main_menu.php'); ?>
-
-					<div class="row">
-						<div class="small-12 columns">

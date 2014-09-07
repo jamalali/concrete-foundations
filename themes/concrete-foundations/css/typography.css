@@ -26,12 +26,18 @@ body#tinymce {
     /* customize_header-background */
     background-color: #fff;
     /* customize_header-background */ }
-  .cf-ui #footer {
+  .cf-ui .footer {
     /* customize_footer-background */
     background-color: #a0dbe3;
     /* customize_footer-background */
-    width: 960px;
     min-height: 150px; }
+    .cf-ui .footer p {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px; }
+      .cf-ui .footer p.footer-copyright {
+        font-weight: bold; }
+      .cf-ui .footer p.footer-tag-line {
+        font-family: "Merriweather", Georgia, serif; }
   .cf-ui #header ul li a {
     /* customize_nav-links */
     color: #000;
@@ -134,12 +140,6 @@ body#tinymce {
     /* customize_footer-text */
     color: #000;
     /* customize_footer-text */ }
-  .cf-ui div#footer #footer-inner p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    display: inline; }
   .cf-ui div#footer #footer-inner p.footer-copyright {
     float: left;
     font-weight: bold; }
