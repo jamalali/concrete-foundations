@@ -2,3 +2,4 @@
 /nbproject/
 /themes/concrete-foundations/.sass-cache/*
 *.DS_Store
+/themes/concrete-foundations/bower_components/

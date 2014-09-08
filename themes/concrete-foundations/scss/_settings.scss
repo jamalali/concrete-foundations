@@ -1,8 +1,9 @@
 // concrete-foundations Settings
 $color1: #ffffff;
 $color2: #000000;
-
-$light-blue: #a0dbe3;
+$color3: #a0dbe3;
+$color4: #dff5ff;
+$color5: #0099ff;
 
 // Foundation by ZURB
 // foundation.zurb.com
@@ -51,7 +52,7 @@ $row-width: rem-calc(960);
 // $font-weight-bold: bold !default
 
 // We use these to control various global styles
-$body-bg: $color1;
+$body-bg: $color4;
 $body-font-color: $color2;
 $sans-serif-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-family: 'Merriweather', Georgia, serif;
@@ -67,7 +68,7 @@ $body-font-family: 'Merriweather', Georgia, serif;
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+$primary-color: $color5;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -141,12 +142,12 @@ $header-top-margin: 0;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+$h1-font-size: rem-calc(32);
+$h2-font-size: rem-calc(28);
+$h3-font-size: rem-calc(22);
+$h4-font-size: rem-calc(20);
+$h5-font-size: rem-calc(16);
+$h6-font-size: rem-calc(12);
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10) !default;
@@ -1207,11 +1208,11 @@ $topbar-bg-color: $color1;
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: $color1;
 $topbar-dropdown-link-color: $color2;
-// $topbar-dropdown-link-bg: #333;
+$topbar-dropdown-link-bg: $color1;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.4;
+$topbar-dropdown-toggle-color: $color2;
+$topbar-dropdown-toggle-alpha: 0.2;
 
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $color2;
@@ -1223,9 +1224,9 @@ $topbar-link-color-active-hover: $topbar-link-color;
 $topbar-link-hover-lightness: 0%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 $topbar-link-bg-color-hover: $color1;
-$topbar-link-bg-hover: $light-blue;
+$topbar-link-bg-hover: $color3;
 $topbar-link-bg-active: $color1;
-$topbar-link-bg-active-hover: $light-blue;
+$topbar-link-bg-active-hover: $color3;
 $topbar-link-font-family: $sans-serif-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
