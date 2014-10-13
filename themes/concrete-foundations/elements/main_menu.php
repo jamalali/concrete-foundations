@@ -22,8 +22,12 @@
 				</ul>
 
 				<section class="top-bar-section">
-                    <?php $a = new GlobalArea('Header Nav');
-					$a->display(); ?>
+                    <?php $nav = BlockType::getByHandle('autonav');
+					$nav->controller->displayPages = 'top';
+					$nav->controller->orderBy = 'display_asc';
+					$nav->controller->displaySubPages = 'all';
+					$nav->controller->displaySubPageLevels = 'all';
+					$nav->render('templates/foundation_topbar/view'); ?>
 				</section>
 
             </nav>
